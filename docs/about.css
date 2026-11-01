@@ -1,0 +1,150 @@
+/* About-only layout. Shared colours, typography, navigation and footer
+   continue to come from _brand.yml, custom.scss and styles.css. */
+.about-page #quarto-content {
+  display: block;
+  width: 100%;
+  max-width: 1160px;
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+.about-page main.content { width: 100%; max-width: none; margin: 0; padding: 0 0 2.5rem; }
+.about-page #title-block-header { display: none; }
+
+/* Introduction: one main heading, a short narrative, no image. */
+.about-page .about-intro { max-width: 46rem; padding: 3.5rem 0 3rem; }
+.about-page .about-intro .eyebrow { margin-bottom: 1rem; }
+.about-page .about-intro h1 {
+  font-size: clamp(2.25rem, 3.8vw, 3.2rem);
+  line-height: 1.18;
+  letter-spacing: -.03em;
+  margin: 0 0 1.5rem;
+}
+.about-page .about-narrative { max-width: 38rem; }
+.about-page .about-narrative > :last-child { margin-bottom: 0; }
+
+/* Illustrated chapters: change only the named grid areas to alternate sides.
+   Text comes first in the document for a consistent reading order. */
+.about-page .about-chapter {
+  display: grid;
+  align-items: center;
+  gap: clamp(2rem, 4vw, 4rem);
+  border-top: 1px solid var(--sand);
+  padding-block: 2.75rem;
+}
+.about-page .about-chapter--visual-first {
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  grid-template-areas: "visual story";
+}
+.about-page .about-chapter--text-first {
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr);
+  grid-template-areas: "story visual";
+}
+.about-page .about-story { grid-area: story; min-width: 0; }
+.about-page h2 {
+  font-size: clamp(1.55rem, 2.3vw, 1.95rem);
+  line-height: 1.3;
+  letter-spacing: -.02em;
+  border: 0;
+  margin: 0 0 .6rem;
+  padding: 0;
+}
+.about-page .about-place { color: var(--taupe); font-size: .95rem; font-weight: 600; }
+.about-page .about-story > p { margin-bottom: 1.25rem; }
+
+/* Reusable visual container: replace its placeholder with an image later.
+   A 4:3 frame stays modest even when the narrative grows longer. */
+.about-page .about-visual {
+  grid-area: visual;
+  width: 100%;
+  max-width: 340px;
+  min-width: 0;
+  justify-self: center;
+}
+.about-page .about-image-placeholder {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  padding: 1rem;
+  background: var(--beige);
+  border: 1px solid var(--sand);
+  color: var(--ink);
+  font-size: .85rem;
+  text-align: center;
+}
+.about-page .about-visual img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.about-page .about-visual figure { margin: 0; }
+.about-page .about-visual figcaption {
+  margin: .6rem 0 0;
+  padding: 0;
+  font: 400 13px/1.5 Arial, Helvetica, sans-serif;
+  color: var(--taupe);
+  text-align: left;
+}
+.about-page .about-visual img.about-image--portrait { aspect-ratio: auto; }
+
+/* Quiet reflection and connected concluding sections share a reading width. */
+.about-page .about-reading { max-width: 42rem; margin-inline: auto; }
+.about-page .about-reflection {
+  border-top: 1px solid var(--sand);
+  padding-block: 3.25rem;
+}
+.about-page .about-closing {
+  border-top: 1px solid var(--sand);
+  padding-block: 2.75rem 1rem;
+}
+.about-page .about-closing-section + .about-closing-section { margin-top: 2.25rem; }
+
+/* These three editorial layouts need broad reading columns. Tablets retain
+   the existing single-column flow; no heights or text clipping are used. */
+@media (min-width: 1100px) {
+  .about-page .about-intro { max-width: none; }
+  .about-page .about-intro > section.level1 {
+    display: grid;
+    grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+    align-items: start;
+    gap: 4rem;
+  }
+  .about-page .about-reflection > .about-reading { max-width: none; }
+  .about-page .about-reflection .about-narrative {
+    max-width: none;
+    column-count: 2;
+    column-gap: 4rem;
+    column-fill: balance;
+  }
+  .about-page .about-reflection .about-narrative p {
+    break-inside: avoid-column;
+    orphans: 3;
+    widows: 3;
+  }
+  .about-page .about-reflection .about-narrative p:nth-last-child(-n + 2) {
+    break-before: avoid-column;
+  }
+  .about-page .about-closing > .about-reading {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: 4rem;
+    max-width: none;
+  }
+  .about-page .about-closing-section + .about-closing-section { margin-top: 0; }
+}
+
+@media (max-width: 767.98px) {
+  .about-page #quarto-content { padding-inline: 1.25rem; }
+  .about-page .about-intro { padding-block: 2.5rem; }
+  .about-page .about-chapter {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "story" "visual";
+    gap: 1.5rem;
+    padding-block: 2.25rem;
+  }
+  .about-page .about-visual { max-width: 320px; justify-self: start; }
+  .about-page .about-reflection { padding-block: 2.5rem; }
+  .about-page .about-closing { padding-top: 2.25rem; }
+}

@@ -121,30 +121,58 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "A journey shaped by people, curiosity, and unexpected turns.",
     "section": "",
-    "text": "I’m Jane Zhang, a data professional and creative writer with an interest in how we understand and communicate a changing world.\nThis website brings together my work in data science, fiction, and independent learning at the intersection of AI and energy. I want to share useful knowledge, explore ideas carefully, and make room for both analytical and creative work."
+    "text": "About Me\n\n\n\nI’m Jane Zhang. My journey has taken me across countries, cultures, and disciplines—from working with people and businesses to studying data science and artificial intelligence, and exploring the possibilities of our technological future through research and creative writing.\nIt hasn’t been a straight path, nor one I could have planned entirely. Looking back, however, I can see how each experience has shaped the way I think, work, and understand the world."
   },
   {
-    "objectID": "about.html#background-qualifications",
-    "href": "about.html#background-qualifications",
-    "title": "About",
-    "section": "Background & qualifications",
-    "text": "Background & qualifications\nMy MSc research is titled Physics-Informed Machine Learning in Space Plasma Physics. Its project page will provide a home for the summary, methods, and research materials.\n\nProfile in progress. Details of my qualifications, professional background, and experience will be added here in my own words."
+    "objectID": "about.html#where-it-began",
+    "href": "about.html#where-it-began",
+    "title": "A journey shaped by people, curiosity, and unexpected turns.",
+    "section": "01 — Where it began",
+    "text": "01 — Where it began\nThe Hutong, China\n\nMy professional journey began in China, at The Hutong, a cultural exchange organisation where I helped organise educational activities and corporate events.\nWorking with people from different cultural backgrounds taught me some of my earliest professional lessons: communication isn’t simply about expressing yourself clearly, but also about understanding how differently others may see the same situation.\nIt was an environment where I learned to navigate different expectations, resolve misunderstandings, and appreciate the importance of working with people."
   },
   {
-    "objectID": "about.html#interests-perspective",
-    "href": "about.html#interests-perspective",
-    "title": "About",
-    "section": "Interests & perspective",
-    "text": "Interests & perspective\nI’m interested in applied data science, machine learning, scientific research, and creative writing—including science fiction and memoirs.\nMy AI–energy work is an independent learning and exploratory research initiative. I plan to follow developments across the US, EU, and China, and write accessible explanations that distinguish evidence, interpretation, and open questions."
+    "objectID": "about.html#discovering-data",
+    "href": "about.html#discovering-data",
+    "title": "A journey shaped by people, curiosity, and unexpected turns.",
+    "section": "02 — Discovering data",
+    "text": "02 — Discovering data\nVW Financial Services China\n\nI later joined Volkswagen Financial Services China, initially in administration before becoming an assistant to the HR director. I gradually took on responsibilities involving employee development and training.\nCurious about whether our training programmes were genuinely effective, I began collecting feedback, analysing survey results, and sharing findings with colleagues to help improve the courses.\nIt was a modest introduction to data analysis, mostly using Excel. But I discovered something satisfying: data could help us look beyond impressions and better understand what was happening.\nI didn’t know it then, but that curiosity would eventually change my professional direction."
   },
   {
-    "objectID": "about.html#find-me-elsewhere",
-    "href": "about.html#find-me-elsewhere",
-    "title": "About",
-    "section": "Find me elsewhere",
-    "text": "Find me elsewhere\n\nLinkedIn — connect with me\nGitHub — explore my work\nAuthor page — books and writing"
+    "objectID": "about.html#starting-again",
+    "href": "about.html#starting-again",
+    "title": "A journey shaped by people, curiosity, and unexpected turns.",
+    "section": "03 — Starting again",
+    "text": "03 — Starting again\nGermany\n\nWhen my family moved to Germany, I expected to continue my career. Instead, I discovered how difficult it could be to begin again in a country where my previous experience didn’t translate easily into new opportunities.\nI first had to learn the language and find my footing in a different professional environment.\nDuring this period, I participated in a career-support programme alongside women whose lives had taken very different, sometimes difficult paths. Listening to their experiences left a lasting impression on me. It made me more aware of how little we often know about the circumstances behind another person’s life, and how differently opportunities can unfold.\nMy own turning point came unexpectedly. While helping at an education and employment fair, I met an HR director who noticed my work and offered me a position. I was grateful, but I had also begun thinking about changing direction. Instead of accepting the position as offered, I asked whether I could join the company’s dual-study programme in business administration.\nThe answer was yes.\nThat decision opened a new chapter."
+  },
+  {
+    "objectID": "about.html#from-business-to-data-science",
+    "href": "about.html#from-business-to-data-science",
+    "title": "A journey shaped by people, curiosity, and unexpected turns.",
+    "section": "04 — From business to data science",
+    "text": "04 — From business to data science\nGermany\n\nDuring my business studies in Germany, I became increasingly interested in statistics and data analytics. I began experimenting with company data, asking whether analytical methods could reveal patterns and relationships beyond conventional reporting.\nMachine learning opened another dimension. Yet my undergraduate research also taught me a lesson I still value: a sophisticated model cannot compensate for data that is unsuitable for the question being investigated.\nWhat began as a practical interest in using data to improve business decisions gradually developed into a desire to understand the methods and possibilities of data science more deeply."
+  },
+  {
+    "objectID": "about.html#scientific-inquiry",
+    "href": "about.html#scientific-inquiry",
+    "title": "A journey shaped by people, curiosity, and unexpected turns.",
+    "section": "05 — Scientific inquiry",
+    "text": "05 — Scientific inquiry\nUniversity of Liverpool\n\nAfter another family move, this time to Portugal, I decided to deepen my technical knowledge through an online MSc in Data Science and Artificial Intelligence at the University of Liverpool.\nI completed the degree with distinction. For my dissertation, I explored physics-informed machine learning using space plasma data from the Solar Orbiter mission.\nThe research challenged me to work across scientific domains, confront unfamiliar problems, and recognise the importance of physical understanding alongside computational methods.\nIt strengthened my belief that meaningful analysis begins with understanding the problem, not simply choosing the most advanced model."
+  },
+  {
+    "objectID": "about.html#beyond-the-data",
+    "href": "about.html#beyond-the-data",
+    "title": "A journey shaped by people, curiosity, and unexpected turns.",
+    "section": "06 — Beyond the data",
+    "text": "06 — Beyond the data\n\nAlongside my technical studies, I became increasingly interested in the broader implications of artificial intelligence—not only what it might enable, but how it could influence human decisions, relationships, institutions, and society.\nCreative writing became another way to explore those questions.\nMy published science-fiction novel, Juan’s World, imagines possible technological futures through the experiences and choices of its characters. My completed manuscript, Me and ChatGPT, takes a different approach, examining personal experiences of human–AI interaction and the importance of understanding our emotional and cognitive responses to technology.\nMore recently, I’ve been developing an independent investigation into AI and energy systems, exploring how the growth of AI infrastructure interacts with electricity networks, regulation, environmental considerations, and the communities affected.\nThese are evolving areas of work, and I approach them with curiosity, evidence, and an appreciation for what I have yet to understand."
+  },
+  {
+    "objectID": "about.html#how-i-approach-my-work",
+    "href": "about.html#how-i-approach-my-work",
+    "title": "A journey shaped by people, curiosity, and unexpected turns.",
+    "section": "07 — How I approach my work",
+    "text": "07 — How I approach my work\n\nI enjoy exploring unfamiliar questions, working across disciplines, and exchanging perspectives with people from different backgrounds.\nI believe imagination has a place in both scientific inquiry and creative writing. It helps us consider possibilities we might otherwise overlook. But when investigating real-world problems, those possibilities need to be examined against evidence, with care for assumptions, limitations, and uncertainty.\nI also believe that meaningful work rarely happens in isolation. My own journey has depended not only on personal effort, but on people who shared their knowledge, recognised possibilities, and opened doors along the way.\nToday, I live in Sweden, where I continue to develop my work in data science, creative writing, and independent research. I’m open to thoughtful conversations, interdisciplinary collaboration, and opportunities to explore worthwhile questions together.\nThis website is where I share that work, the thinking behind it, and the questions that remain.\nAnd perhaps that is the most consistent part of my journey: not having all the answers, but continuing to learn how to ask better questions."
   },
   {
     "objectID": "data-projects.html",
