@@ -1,34 +1,55 @@
 ---
 title: "Data Projects"
-description: "Applied data science, scientific research, and analytical projects."
+page-layout: full
+body-classes: data-projects-page
+format:
+  html:
+    css:
+      - styles.css
+      - data-projects.css
 ---
 
+::: {.data-projects-intro}
+## From questions to evidence
+
 ::: {.section-intro}
-A growing portfolio of applied data science, machine learning, and scientific research.
+I enjoy using data science to investigate complex problems, discover meaningful patterns, and test possible explanations.
 :::
 
-Each project will have its own page, with room for the question, approach, visualisations, results, limitations, and links to original materials.
+My approach begins with understanding the problem and the nature of the data, rather than selecting models for their complexity. I value methodological rigour, interpretability, and the integration of domain knowledge.
 
-::: {.portfolio-entry}
-[MSc research]{.work-type}
-
-## Physics-Informed Machine Learning in Space Plasma Physics
-
-A dedicated page for my MSc research. The summary and supporting research materials are still to be added.
-
-[View the research project →](projects/msc-space-plasma.qmd){.text-link}
+Here, I share selected research and technical projects, including their methods, findings, limitations, and the lessons learned along the way.
 :::
 
-::: {.portfolio-entry}
-[From my data notebook · 4 December 2025]{.work-type}
+::::: {.portfolio-entry}
+## Featured Project
 
-## Exploring the Palmer penguins dataset
+:::: {.featured-research}
+::: {.research-copy}
+[MSc Research · 2025 | Software Extension · 2026]{.work-type}
 
-My original data-blog post, with Python code and a scatterplot exploring the dataset.
+### Physics-Informed Machine Learning in Space Plasma Physics
 
-[Read the original post →](posts/2025-12-04_first_post/index.qmd){.text-link}
+*Scientific Machine Learning · Solar Orbiter · Python*
+
+My MSc dissertation at the University of Liverpool investigated how physics-informed machine learning could help us understand the complex dynamics of the solar wind using real spacecraft observations.
+
+The research combined Gaussian Mixture Models (GMM), HDBSCAN clustering, and Sparse Identification of Nonlinear Dynamics (SINDy) to investigate particle populations, plasma regimes, and their temporal evolution.
 :::
 
-::: {.editorial-note}
-More technical projects will be added as they are ready. This portfolio is a work in progress.
+::: {.research-visual}
+<!-- Original Figure 20, dissertation page 56 (PDF page 61); extracted without changing the plotted data. -->
+![Particle Species in 3D Velocity Space — MSc dissertation, 2025, Figure 20.](images/solar-wind-gmm-velocity-space.png){width=480 fig-alt="Three-dimensional velocity-space scatterplot from the MSc dissertation, showing GMM clusters 0 to 3 in red, green, blue, and purple, with velocity axes measured in metres per second."}
 :::
+::::
+
+::: {.research-extension}
+After completing the dissertation, I revisited the research to explore how notebook-based experimentation could be developed into more structured, reusable, and reproducibility-oriented scientific software.
+
+This extension involved modularising the analytical pipeline, introducing automated tests, and documenting the workflow, alongside further scientific investigation.
+
+[Explore the project →](projects/msc-space-plasma.qmd){.text-link}
+
+[View code and documentation on GitHub](https://github.com/Jane-bunny/solarwind-multiscale){.text-link}
+:::
+:::::

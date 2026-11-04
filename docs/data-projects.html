@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Applied data science, scientific research, and analytical projects.">
 
 <title>Data Projects – Jane Zhang</title>
 <style>
@@ -76,12 +75,17 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="data-projects.css">
 <meta property="og:title" content="Jane Zhang">
 <meta property="og:description" content="Data science, creative writing, and independent learning at the intersection of AI and energy.">
+<meta property="og:image" content="https://jane-bunny.github.io/data-blog/images/solar-wind-gmm-velocity-space.png">
 <meta property="og:site_name" content="Jane Zhang">
+<meta property="og:image:alt" content="Three-dimensional velocity-space scatterplot from the MSc dissertation, showing GMM clusters 0 to 3 in red, green, blue, and purple, with velocity axes measured in metres per second.">
+<meta property="og:image:height" content="650">
+<meta property="og:image:width" content="700">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed data-projects-page quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -122,26 +126,21 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Data Projects</h1>
 </div>
 
-<div>
-  <div class="description">
-    Applied data science, scientific research, and analytical projects.
-  </div>
-</div>
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -153,29 +152,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="from-questions-to-evidence" class="level2 data-projects-intro">
+<h2 class="anchored" data-anchor-id="from-questions-to-evidence">From questions to evidence</h2>
 <div class="section-intro">
-<p>A growing portfolio of applied data science, machine learning, and scientific research.</p>
+<p>I enjoy using data science to investigate complex problems, discover meaningful patterns, and test possible explanations.</p>
 </div>
-<p>Each project will have its own page, with room for the question, approach, visualisations, results, limitations, and links to original materials.</p>
-<div class="portfolio-entry">
-<p><span class="work-type">MSc research</span></p>
-<section id="physics-informed-machine-learning-in-space-plasma-physics" class="level2">
-<h2 class="anchored" data-anchor-id="physics-informed-machine-learning-in-space-plasma-physics">Physics-Informed Machine Learning in Space Plasma Physics</h2>
-<p>A dedicated page for my MSc research. The summary and supporting research materials are still to be added.</p>
-<p><a href="./projects/msc-space-plasma.html" class="text-link">View the research project →</a></p>
+<p>My approach begins with understanding the problem and the nature of the data, rather than selecting models for their complexity. I value methodological rigour, interpretability, and the integration of domain knowledge.</p>
+<p>Here, I share selected research and technical projects, including their methods, findings, limitations, and the lessons learned along the way.</p>
+</section>
+<section id="featured-project" class="level2 portfolio-entry">
+<h2 class="anchored" data-anchor-id="featured-project">Featured Project</h2>
+<div class="featured-research">
+<div class="research-copy">
+<p><span class="work-type">MSc Research · 2025 | Software Extension · 2026</span></p>
+<section id="physics-informed-machine-learning-in-space-plasma-physics" class="level3">
+<h3 class="anchored" data-anchor-id="physics-informed-machine-learning-in-space-plasma-physics">Physics-Informed Machine Learning in Space Plasma Physics</h3>
+<p><em>Scientific Machine Learning · Solar Orbiter · Python</em></p>
+<p>My MSc dissertation at the University of Liverpool investigated how physics-informed machine learning could help us understand the complex dynamics of the solar wind using real spacecraft observations.</p>
+<p>The research combined Gaussian Mixture Models (GMM), HDBSCAN clustering, and Sparse Identification of Nonlinear Dynamics (SINDy) to investigate particle populations, plasma regimes, and their temporal evolution.</p>
 </section>
 </div>
-<div class="portfolio-entry">
-<p><span class="work-type">From my data notebook · 4 December 2025</span></p>
-<section id="exploring-the-palmer-penguins-dataset" class="level2">
-<h2 class="anchored" data-anchor-id="exploring-the-palmer-penguins-dataset">Exploring the Palmer penguins dataset</h2>
-<p>My original data-blog post, with Python code and a scatterplot exploring the dataset.</p>
-<p><a href="./posts/2025-12-04_first_post/index.html" class="text-link">Read the original post →</a></p>
+<div class="research-visual">
+<!-- Original Figure 20, dissertation page 56 (PDF page 61); extracted without changing the plotted data. -->
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/solar-wind-gmm-velocity-space.png" class="img-fluid figure-img" alt="Three-dimensional velocity-space scatterplot from the MSc dissertation, showing GMM clusters 0 to 3 in red, green, blue, and purple, with velocity axes measured in metres per second." width="480"></p>
+<figcaption>Particle Species in 3D Velocity Space — MSc dissertation, 2025, Figure 20.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="research-extension">
+<p>After completing the dissertation, I revisited the research to explore how notebook-based experimentation could be developed into more structured, reusable, and reproducibility-oriented scientific software.</p>
+<p>This extension involved modularising the analytical pipeline, introducing automated tests, and documenting the workflow, alongside further scientific investigation.</p>
+<p><a href="./projects/msc-space-plasma.html" class="text-link">Explore the project →</a></p>
+<p><a href="https://github.com/Jane-bunny/solarwind-multiscale" class="text-link">View code and documentation on GitHub</a></p>
+</div>
 </section>
-</div>
-<div class="editorial-note">
-<p>More technical projects will be added as they are ready. This portfolio is a work in progress.</p>
-</div>
 
 
 

@@ -5,6 +5,8 @@
 *_cache/
 *.html
 *.pdf
+!resources/msc-space-plasma/research-poster-2025.pdf
+!docs/resources/msc-space-plasma/research-poster-2025.pdf
 *.docx
 
 # Quarto render artefacts

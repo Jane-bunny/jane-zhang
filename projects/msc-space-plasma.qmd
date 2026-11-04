@@ -1,35 +1,207 @@
 ---
 title: "Physics-Informed Machine Learning in Space Plasma Physics"
-description: "MSc research by Jane Zhang. Project summary and research materials to follow."
-toc: true
+subtitle: "Exploring the evolving solar wind through scientific machine learning."
+page-layout: full
+body-classes: research-project-page
+toc: false
+format:
+  html:
+    css:
+      - ../styles.css
+      - msc-space-plasma.css
+resources:
+  - ../resources/msc-space-plasma/research-poster-2025.pdf
+  - ../resources/msc-space-plasma/vdf_species_evolution.mp4
+  - ../resources/msc-space-plasma/vdf_species_3D_evolution.mp4
+  - ../resources/msc-space-plasma/vdf-species-2d-preview.png
+  - ../resources/msc-space-plasma/vdf-species-3d-preview.png
 ---
 
-[MSc research · Project details in preparation]{.work-type}
+**MSc Research · University of Liverpool · 2025**<br>
+**Research and Software Extension · 2026**
 
-This page will present my MSc research. The title is provided here; the project description, methods, findings, and supporting materials are still to be added.
+*Solar Orbiter · Python · GMM · HDBSCAN · SINDy*
 
-## Research question
 
-::: {.editorial-note}
-**To add:** The scientific question, context, and scope of the thesis.
-:::
+<nav class="research-section-nav" aria-label="Project sections">
+  <a href="#research-question">01 · Question</a>
+  <a href="#methodology">02 · Method</a>
+  <a href="#original-findings">03 · Findings</a>
+  <a href="#research-extension">04 · Extension</a>
+  <a href="#reflections-resources">05 · Reflections &amp; resources</a>
+</nav>
 
-## Approach & methods
+## 01 — The Research Question {#research-question}
 
-::: {.editorial-note}
-**To add:** The data, physical assumptions, machine-learning methods, and evaluation approach actually used in the research.
-:::
+**Can machine learning help us understand how the solar wind evolves?**
 
-## Results & limitations
+The solar wind is a continuous flow of charged particles from the Sun. Its behaviour is shaped by complex interactions involving particle motion, magnetic fields and changing plasma conditions.
 
-::: {.editorial-note}
-**To add:** Verified findings, visualisations, and limitations drawn from the thesis. No results are presented yet.
-:::
+One way to investigate these processes is through *velocity distribution functions* (VDFs), which describe how particles are distributed across different velocities. They offer a connection between microscopic particle behaviour and larger-scale plasma dynamics.
 
-## Research materials & references
+However, real spacecraft observations are challenging to analyse. Measurements from different instruments must be carefully aligned, particle populations frequently overlap, and the physical environment changes continuously.
 
-::: {.editorial-note}
-**To add:** Thesis date and institution, a public thesis or repository link where available, code, and original references.
-:::
+My MSc research explored whether combining machine learning with physical knowledge could help investigate these evolving structures.
 
-[← All data projects](../data-projects.qmd)
+Rather than identifying patterns in isolated observations, I wanted to understand how particle populations, broader plasma conditions and their dynamical relationships might be studied together.
+
+## 02 — How I Investigated It {#methodology}
+
+**Connecting data, physical knowledge and complementary models**
+
+I worked with observations from ESA's Solar Orbiter mission, focusing on a selected interval from 14 July 2020, when the spacecraft was approximately 0.64 astronomical units from the Sun.
+
+A substantial part of the work involved preparing the observational data: examining measurement quality, aligning datasets with different sampling characteristics, and engineering features that reflected the underlying physics.
+
+I then combined three machine-learning approaches:
+
+- **Gaussian Mixture Models (GMM)** to investigate particle populations within velocity distributions and examine their changes over time.
+- **HDBSCAN** to identify broader plasma regimes without imposing fixed cluster shapes or forcing every observation into a group.
+- **Sparse Identification of Nonlinear Dynamics (SINDy)** to examine interpretable relationships between evolving plasma variables and provide another perspective on the clustering results.
+
+Physical knowledge informed the analytical process, from feature construction and model selection to evaluation and interpretation.
+
+The objective was not simply to produce statistically distinct clusters, but to investigate whether the identified patterns could be understood within the physical context of the solar wind.
+
+```{=html}
+<figure class="research-workflow" aria-labelledby="workflow-caption">
+  <ol class="workflow-stages" aria-label="Original 2025 research workflow">
+    <li class="workflow-stage">
+      <div class="workflow-node workflow-node--shared">
+        <strong>Solar Orbiter observations</strong>
+        <span>Particle distributions and plasma measurements.</span>
+      </div>
+    </li>
+    <li class="workflow-stage">
+      <div class="workflow-node">
+        <strong>Data preparation and physical feature engineering</strong>
+        <span>Quality selection, temporal alignment and physically meaningful variables.</span>
+      </div>
+    </li>
+    <li class="workflow-stage workflow-analysis">
+      <p class="workflow-parallel-label">Two complementary modelling branches</p>
+      <div class="workflow-fork" aria-hidden="true"></div>
+      <ul class="workflow-branches">
+        <li class="workflow-branch">
+          <div class="workflow-node">
+            <span class="workflow-scale">Microscopic</span>
+            <strong>GMM</strong>
+            <span>Particle populations and their evolution.</span>
+          </div>
+        </li>
+        <li class="workflow-branch">
+          <div class="workflow-node">
+            <span class="workflow-scale">Macroscopic</span>
+            <strong>HDBSCAN</strong>
+            <span>Plasma regime identification.</span>
+            <div class="workflow-sindy">
+              <span class="workflow-sindy-arrow" aria-hidden="true">↓</span>
+              <div>
+                <strong>SINDy</strong>
+                <span>Within-regime dynamical relationships.</span>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="workflow-join" aria-hidden="true"></div>
+    </li>
+    <li class="workflow-stage">
+      <div class="workflow-node workflow-node--shared">
+        <strong>Physical interpretation and evaluation</strong>
+        <span>Bringing findings together across scales and checking consistency with known plasma behaviour.</span>
+      </div>
+    </li>
+  </ol>
+  <figcaption id="workflow-caption">Simplified workflow of the original 2025 MSc research, adapted from Figure 2 of the dissertation.</figcaption>
+</figure>
+```
+
+
+## 03 — What I Found {#original-findings}
+
+**Structure within an evolving plasma environment**
+
+The original dissertation produced several findings.
+
+GMM analysis identified **four distinguishable particle populations**, with different velocity characteristics and temporal behaviour. Their evolution suggested possible differences in how populations respond to changing plasma conditions. However, identifying these components with specific ion species required further validation.
+
+At the macroscopic level, HDBSCAN identified **three plasma regimes**, with approximately 32% of observations classified as noise. These results suggested that the selected interval contained complex and transitional plasma conditions rather than sharply separated, static categories.
+
+SINDy provided an additional view of the dynamical relationships within these regimes, helping to interpret the clustering outcomes in relation to known physical behaviour.
+
+Together, the results demonstrated how complementary models could reveal different aspects of the same evolving system.
+
+The investigation also generated further hypotheses about particle-population evolution. I regarded these as questions for future research, not established discoveries.
+
+<p id="research-video-origin" class="research-media-origin">Original MSc research · 2025</p>
+<p id="research-video-note" class="research-media-note">Colours indicate fitted model components; they do not by themselves establish ion species or continuously tracked physical populations.</p>
+
+<figure class="research-video">
+  <video id="vdf-2d-video" controls playsinline preload="metadata" width="1200" height="900" poster="../resources/msc-space-plasma/vdf-species-2d-preview.png" aria-label="2D velocity-space density contours from the original 2025 MSc research" aria-describedby="vdf-2d-caption research-video-origin research-video-note">
+    <source src="../resources/msc-space-plasma/vdf_species_evolution.mp4" type="video/mp4">
+    Your browser does not support embedded video. <a href="../resources/msc-space-plasma/vdf_species_evolution.mp4">Open the original 2D research video (MP4)</a>.
+  </video>
+  <figcaption id="vdf-2d-caption">Evolution of fitted particle distributions in the Vx–Vy plane, visualised through density contours.</figcaption>
+</figure>
+<p class="research-video-download"><a href="../resources/msc-space-plasma/vdf_species_evolution.mp4" download>Download the original 2D video (MP4)</a></p>
+
+<details class="research-supplement">
+  <summary>Supplementary video — 3D GMM representation (2025)</summary>
+  <figure class="research-video">
+    <video id="vdf-3d-video" controls playsinline preload="metadata" width="1350" height="1050" poster="../resources/msc-space-plasma/vdf-species-3d-preview.png" aria-label="3D fitted GMM components across successive observations from the original 2025 MSc research" aria-describedby="vdf-3d-caption research-video-origin research-video-note">
+      <source src="../resources/msc-space-plasma/vdf_species_3D_evolution.mp4" type="video/mp4">
+      Your browser does not support embedded video. <a href="../resources/msc-space-plasma/vdf_species_3D_evolution.mp4">Open the original 3D research video (MP4)</a>.
+    </video>
+    <figcaption id="vdf-3d-caption">Three-dimensional visualisation of fitted GMM particle components across successive Solar Orbiter observations.</figcaption>
+  </figure>
+  <p class="research-video-download"><a href="../resources/msc-space-plasma/vdf_species_3D_evolution.mp4" download>Download the original 3D video (MP4)</a></p>
+</details>
+
+## 04 — Revisiting the Research {#research-extension}
+
+### From research notebooks to reusable software
+
+After completing my dissertation, I returned to the project with another objective: to understand how experimental research code could be developed into more structured, maintainable and reproducible scientific software.
+
+I reorganised the original notebook-based work into Python modules with separate responsibilities for data preprocessing, modelling and scientific analysis. I also introduced automated tests, dependency management and documentation.
+
+This gave me practical experience with modular software design while allowing the research to continue developing.
+
+### Questioning the original feature engineering
+
+Revisiting the project also prompted me to examine some earlier modelling decisions.
+
+During this review, I recognised that certain engineered features used in the original clustering analysis were not well suited to the physical question being investigated. One example was the inclusion of magnetic-field components divided by Alfvén speed, a transformation whose physical meaning and potential redundancy required reconsideration.
+
+The revised analysis no longer used those features and identified **two dominant plasma sub-regimes**, rather than the three reported in the original dissertation.
+
+The extended investigation also incorporated additional kinetic diagnostics and regime-aware SINDy analysis.
+
+Because the later analysis involved revised modelling choices, the different clustering outcomes should not be attributed to one feature change without a controlled comparison.
+
+For me, this was an important reminder that analytical results must remain open to reassessment. A model can produce convincing statistical patterns even when aspects of the underlying feature representation deserve further scrutiny.
+
+## 05 — Limitations, Reflections and Resources {#reflections-resources}
+
+### What the project taught me
+
+This research reinforced two lessons.
+
+The first concerns scientific reasoning. Machine-learning results become more meaningful when the data, assumptions and evaluation methods are understood within their domain. Statistical patterns alone do not establish physical explanations.
+
+The second concerns technical practice. Moving from exploratory notebooks to reusable modules helped me understand the importance of separating responsibilities, documenting dependencies, introducing tests and making analytical work easier to examine and extend.
+
+Important limitations remain. The particle identities require stronger physical validation, the clustering results warrant further robustness testing, and the findings are based on a limited observational interval.
+
+I see the project as both a completed academic investigation and an evolving learning experience: one that strengthened my interest in scientific machine learning, interpretable methods and the careful development of data-driven research.
+
+### Explore the research
+
+[GitHub — Code and reproducibility documentation](https://github.com/Jane-bunny/solarwind-multiscale)
+
+[**Research poster — University of Liverpool, 2025 (PDF)**](../resources/msc-space-plasma/research-poster-2025.pdf){.text-link} · <a class="text-link" href="../resources/msc-space-plasma/research-poster-2025.pdf" download="Jane-Zhang-original-research-poster-2025.pdf" aria-label="Download the original 2025 research poster (PDF)">Download</a>
+
+The complete MSc dissertation is available upon request. If you would like to discuss the research or its methodology, please feel free to [contact me](../index.qmd#connect).
+
+[← All data projects](../data-projects.qmd){.text-link .research-back-link}

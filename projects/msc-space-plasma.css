@@ -1,0 +1,285 @@
+/* This research page shares the site's palette, navigation and typefaces. */
+.research-project-page #quarto-content {
+  display: block;
+  width: 100%;
+  max-width: 1040px;
+  padding-inline: 2rem;
+  margin-inline: auto;
+}
+
+.research-project-page main.content {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+.research-project-page #title-block-header {
+  max-width: 52rem;
+  margin-bottom: 1.75rem;
+}
+
+.research-project-page #title-block-header h1 {
+  font-size: clamp(2.1rem, 3.8vw, 3rem);
+  line-height: 1.18;
+  letter-spacing: -.025em;
+}
+
+.research-project-page #title-block-header .subtitle {
+  max-width: 42rem;
+  margin-top: 1.25rem;
+  color: var(--taupe);
+  font: italic 1.2rem/1.6 Georgia, "Times New Roman", serif;
+}
+
+.research-project-page main > p,
+.research-project-page main > section {
+  max-width: 43rem;
+}
+
+.research-project-page main > section {
+  margin-top: 3rem;
+}
+
+.research-project-page h2 {
+  font-size: clamp(1.55rem, 2.5vw, 1.95rem);
+  line-height: 1.35;
+  margin: 0 0 1.5rem;
+  padding-bottom: 1rem;
+  scroll-margin-top: 7rem;
+}
+
+.research-project-page h3 {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin: 2rem 0 1rem;
+}
+
+.research-project-page .research-section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem 1.75rem;
+  padding-block: 1.25rem;
+  margin-block: 2rem 3rem;
+  border-block: 1px solid var(--sand);
+  font-size: .85rem;
+}
+
+.research-project-page .research-workflow {
+  margin: 2rem 0;
+}
+
+.research-project-page .workflow-stages {
+  display: grid;
+  gap: 1.6rem;
+  margin: 0 0 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.research-project-page .workflow-stage {
+  position: relative;
+  min-width: 0;
+}
+
+.research-project-page .workflow-stage + .workflow-stage::before {
+  content: "↓";
+  position: absolute;
+  top: -1.6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--taupe);
+  line-height: 1.6rem;
+}
+
+.research-project-page .workflow-node {
+  border: 1px solid var(--sand);
+  padding: .7rem .9rem;
+  font-size: .85rem;
+  line-height: 1.5;
+}
+
+.research-project-page .workflow-node > strong,
+.research-project-page .workflow-node > span,
+.research-project-page .workflow-sindy strong,
+.research-project-page .workflow-sindy div > span {
+  display: block;
+}
+
+.research-project-page .workflow-node > span,
+.research-project-page .workflow-sindy div > span {
+  margin-top: .25rem;
+  font-size: .8rem;
+}
+
+.research-project-page .workflow-node--shared {
+  background: var(--beige);
+}
+
+.research-project-page .workflow-stage > .workflow-node {
+  text-align: center;
+}
+
+.research-project-page .workflow-parallel-label {
+  margin: 0;
+  text-align: center;
+  color: var(--taupe);
+  font-size: .8rem;
+}
+
+.research-project-page .workflow-branches {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.research-project-page .workflow-branch {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.research-project-page .workflow-branch::after {
+  content: "";
+  flex: 1;
+  align-self: center;
+  border-left: 1px solid var(--taupe);
+}
+
+.research-project-page .workflow-node .workflow-scale {
+  margin: 0 0 .4rem;
+  color: var(--taupe);
+  font-size: .7rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.research-project-page .workflow-sindy {
+  display: flex;
+  gap: .55rem;
+  border-top: 1px solid var(--sand);
+  margin-top: .7rem;
+  padding-top: .7rem;
+}
+
+.research-project-page .workflow-sindy-arrow {
+  color: var(--taupe);
+}
+
+.research-project-page .workflow-fork,
+.research-project-page .workflow-join {
+  position: relative;
+  height: .8rem;
+  margin-inline: calc(25% - .3125rem);
+  border-inline: 1px solid var(--taupe);
+}
+
+.research-project-page .workflow-fork {
+  margin-top: .6rem;
+  border-top: 1px solid var(--taupe);
+}
+
+.research-project-page .workflow-fork::before {
+  content: "";
+  position: absolute;
+  height: .6rem;
+  left: 50%;
+  top: -.6rem;
+  border-left: 1px solid var(--taupe);
+}
+
+.research-project-page .workflow-join {
+  border-bottom: 1px solid var(--taupe);
+}
+
+.research-project-page main figcaption {
+  color: var(--taupe);
+  font: .82rem/1.6 Arial, Helvetica, sans-serif;
+}
+
+.research-project-page .research-back-link {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.research-project-page .research-media-origin {
+  margin: 2rem 0 .5rem;
+  color: var(--taupe);
+  font-size: .85rem;
+  font-weight: 600;
+}
+
+.research-project-page .research-media-note {
+  color: var(--taupe);
+  font-size: .88rem;
+}
+
+.research-project-page .research-video {
+  max-width: 640px;
+  margin: 1.5rem 0 .6rem;
+}
+
+.research-project-page .research-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: .75rem;
+  background: var(--beige);
+}
+
+.research-project-page .research-video-download {
+  font-size: .82rem;
+}
+
+.research-project-page .research-supplement {
+  max-width: 640px;
+  margin-top: 1.75rem;
+  padding-block: 1rem;
+  border-block: 1px solid var(--sand);
+}
+
+.research-project-page .research-supplement summary {
+  cursor: pointer;
+  font-size: .94rem;
+  font-weight: 600;
+}
+
+.research-project-page .research-supplement summary:focus-visible {
+  outline: 3px solid var(--taupe);
+  outline-offset: 5px;
+}
+
+@media (max-width: 767.98px) {
+  .research-project-page #quarto-content {
+    padding-inline: 1.25rem;
+  }
+
+  .research-project-page .workflow-branches {
+    grid-template-columns: minmax(0, 1fr);
+    gap: .85rem;
+    margin: .75rem 0 0 .35rem;
+    padding-left: 1.1rem;
+    border-left: 1px solid var(--taupe);
+  }
+
+  .research-project-page .workflow-branch {
+    position: relative;
+  }
+
+  .research-project-page .workflow-branch::before {
+    content: "";
+    position: absolute;
+    width: 1.1rem;
+    left: -1.1rem;
+    top: 1rem;
+    border-top: 1px solid var(--taupe);
+  }
+
+  .research-project-page .workflow-branch::after,
+  .research-project-page .workflow-fork,
+  .research-project-page .workflow-join {
+    display: none;
+  }
+}
