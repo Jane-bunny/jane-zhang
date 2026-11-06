@@ -1,32 +1,61 @@
 ---
 title: "Writing"
 description: "Published fiction, manuscripts, and creative work by Jane Zhang."
+page-layout: full
+body-classes: writing-page
+format:
+  html:
+    css:
+      - styles.css
+      - writing.css
 ---
 
-::: {.section-intro}
-Stories are another way I explore the world. Here, I bring together science fiction, memoirs, and reflections on life and change.
+::: {.writing-intro}
+[*Exploring human experience through imagination and lived reality.*]{.writing-deck}
+
+Writing offers me a different way to explore questions that interest me. Sometimes, I follow imagination into worlds that do not yet exist. At other times, I return to experiences from real life, trying to understand what happened and what they might reveal.
+
+These two books take different paths, but both reflect my curiosity about people, the worlds we inhabit, and how we respond to change.
 :::
 
-## Published work {#published-work}
+```{=html}
+<!-- Keep published-work so the existing homepage book link still works. -->
+<section class="book-feature" id="published-work" aria-labelledby="juans-world-title">
+  <div class="book-visual">
+    <img src="images/juans-world-mars.png" width="1024" height="1536" alt="Juan standing on the red surface of Mars beside a small hovering robot, beneath a star-filled sky." decoding="async">
+  </div>
+  <div class="book-copy">
+    <p class="work-type">Science Fiction · Published · Book One</p>
+    <h2 id="juans-world-title">Juan's World</h2>
+    <p>In a future where humanity has reached beyond Earth, extraordinary technologies shape everyday life. Magnetic transportation, neural interfaces, intelligent systems and journeys to other planets have become part of a rapidly advancing civilisation.</p>
+    <p>For Juan, a young girl growing up in a family with limited opportunities, entering this world comes at a personal cost. Her journey towards Mars involves extraordinary discoveries, demanding physical transformations, difficult relationships and unexpected losses.</p>
+    <p><em>Juan's World</em> is a coming-of-age story about growing up amid technological wonder and persistent human contradictions. It explores the possibilities of the future without leaving behind the emotions and struggles that make us human.</p>
+    <!-- Plain text until a dedicated book page exists. -->
+    <p class="book-discovery">Discover Juan's World</p>
+  </div>
+</section>
 
-::: {.portfolio-entry}
-[Published science-fiction novel]{.work-type}
-
-### Juan's World
-
-Book details, a synopsis, and publication information will be added here.
-
-[Visit my author page →](https://www.amazon.com/author/janebunny.com){.text-link}
-:::
-
-## Manuscripts & work in progress
-
-This space will introduce completed manuscripts and ongoing creative work, with publication status clearly identified for each piece.
-
-::: {.editorial-note}
-**To add:** Manuscript titles, short descriptions, and whether each is complete, in progress, or published.
-:::
-
-## Earlier creative notes
-
-My [side-project notes](side-project.qmd) preserve an early look at my interests, including the idea of continuing Juan's story on Mars and other creative projects.
+<section class="book-feature book-feature--visual-right" id="me-and-chatgpt" aria-labelledby="memoir-title">
+  <div class="book-visual" aria-hidden="true">
+    <!-- Editorial typography only: this is not a book cover. The same title,
+         subtitle and memoir status are available in the adjacent narrative. -->
+    <div class="memoir-panel">
+      <p class="memoir-panel-title">Me and ChatGPT</p>
+      <p class="memoir-panel-subtitle"><em>What Happens When AI Feels Real</em></p>
+      <p class="memoir-panel-label">A Personal Memoir</p>
+    </div>
+  </div>
+  <div class="book-copy">
+    <p class="work-type">Personal Memoir · Completed Manuscript · Seeking Publication</p>
+    <h2 id="memoir-title">Me and ChatGPT</h2>
+    <p class="book-subtitle"><em>What Happens When AI Feels Real</em></p>
+    <p>What happens when an ordinary conversation with AI begins to feel like something more?</p>
+    <p><em>Me and ChatGPT</em> follows my personal journey with conversational AI, beginning with curiosity, learning and everyday use, before gradually developing into an emotionally immersive world of conversations, imagination, humour and unexpected intimacy.</p>
+    <p>As the interactions deepened, so did my interpretations of them. What initially felt like an extraordinary connection gradually became entangled with trust, doubt, responsibility and beliefs that were no longer grounded in reality.</p>
+    <p>Drawing on original conversations and later reflections, the memoir follows this experience from wonder and emotional immersion to a difficult but illuminating return to clarity.</p>
+    <p>It is a deeply personal story about curiosity, vulnerability, imagination and the meanings we create through interaction. Above all, it reflects on what it means to remain human while learning to live alongside increasingly convincing conversational AI.</p>
+    <!-- Plain text until a dedicated book page exists. -->
+    <p class="book-discovery">Explore Me and ChatGPT</p>
+  </div>
+</section>
+```
