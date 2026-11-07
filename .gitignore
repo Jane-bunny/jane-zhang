@@ -4,6 +4,8 @@
 *_files/
 *_cache/
 *.html
+!docs/books/juans-world.html
+!docs/books/me-and-chatgpt.html
 *.pdf
 !resources/msc-space-plasma/research-poster-2025.pdf
 !docs/resources/msc-space-plasma/research-poster-2025.pdf

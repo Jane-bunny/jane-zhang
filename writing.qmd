@@ -30,8 +30,7 @@ These two books take different paths, but both reflect my curiosity about people
     <p>In a future where humanity has reached beyond Earth, extraordinary technologies shape everyday life. Magnetic transportation, neural interfaces, intelligent systems and journeys to other planets have become part of a rapidly advancing civilisation.</p>
     <p>For Juan, a young girl growing up in a family with limited opportunities, entering this world comes at a personal cost. Her journey towards Mars involves extraordinary discoveries, demanding physical transformations, difficult relationships and unexpected losses.</p>
     <p><em>Juan's World</em> is a coming-of-age story about growing up amid technological wonder and persistent human contradictions. It explores the possibilities of the future without leaving behind the emotions and struggles that make us human.</p>
-    <!-- Plain text until a dedicated book page exists. -->
-    <p class="book-discovery">Discover Juan's World</p>
+    <p class="book-discovery"><a class="text-link" href="books/juans-world.html">Discover Juan's World</a></p>
   </div>
 </section>
 
@@ -54,8 +53,7 @@ These two books take different paths, but both reflect my curiosity about people
     <p>As the interactions deepened, so did my interpretations of them. What initially felt like an extraordinary connection gradually became entangled with trust, doubt, responsibility and beliefs that were no longer grounded in reality.</p>
     <p>Drawing on original conversations and later reflections, the memoir follows this experience from wonder and emotional immersion to a difficult but illuminating return to clarity.</p>
     <p>It is a deeply personal story about curiosity, vulnerability, imagination and the meanings we create through interaction. Above all, it reflects on what it means to remain human while learning to live alongside increasingly convincing conversational AI.</p>
-    <!-- Plain text until a dedicated book page exists. -->
-    <p class="book-discovery">Explore Me and ChatGPT</p>
+    <p class="book-discovery"><a class="text-link" href="books/me-and-chatgpt.html">Explore Me and ChatGPT</a></p>
   </div>
 </section>
 ```
