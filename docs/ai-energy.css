@@ -1,0 +1,145 @@
+/* Match the main Data Projects and Writing overview containers and padding. */
+.ai-energy-page #quarto-content {
+  display: block;
+  width: 100%;
+  max-width: 1160px;
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+
+.ai-energy-page main.content {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+.ai-energy-page #title-block-header,
+.ai-energy-page .energy-intro,
+.ai-energy-page section.energy-chapter {
+  max-width: 40rem;
+}
+
+.ai-energy-page #title-block-header {
+  margin-bottom: 1.5rem;
+}
+
+.ai-energy-page #title-block-header h1 {
+  margin-bottom: .9rem;
+  font-size: clamp(2.25rem, 3.8vw, 3.1rem);
+  line-height: 1.15;
+  letter-spacing: -.025em;
+}
+
+.ai-energy-page #title-block-header .subtitle {
+  margin: 0;
+  color: var(--taupe);
+  font: italic 1.3rem/1.55 Georgia, "Times New Roman", serif;
+}
+
+/* Keep the search description in metadata; the approved introduction is visible. */
+.ai-energy-page #title-block-header .description {
+  display: none;
+}
+
+.ai-energy-page .energy-intro {
+  padding-bottom: 2rem;
+}
+
+.ai-energy-page .energy-intro > p:first-child {
+  margin-bottom: 1.5rem;
+}
+
+.ai-energy-page .energy-intro .work-type {
+  display: block;
+  line-height: 1.8;
+}
+
+.ai-energy-page .energy-intro p,
+.ai-energy-page .energy-chapter p {
+  margin-bottom: 1.25rem;
+  line-height: 1.75;
+}
+
+.ai-energy-page .energy-intro > :last-child,
+.ai-energy-page .energy-chapter > :last-child,
+.ai-energy-page .energy-chapter > section > :last-child {
+  margin-bottom: 0;
+}
+
+.ai-energy-page section.energy-chapter {
+  margin-inline: 0;
+  padding-block: 2.5rem;
+  border-top: 1px solid var(--sand);
+}
+
+.ai-energy-page .energy-chapter h2 {
+  margin: 0 0 1.5rem;
+  padding: 0;
+  border: 0;
+  font-size: clamp(1.65rem, 2.4vw, 2rem);
+  line-height: 1.3;
+  letter-spacing: -.02em;
+}
+
+.ai-energy-page .energy-chapter h3 {
+  margin: 0 0 1.5rem;
+  color: var(--taupe);
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.ai-energy-page .energy-chapter ul {
+  margin-block: 1.25rem 1.5rem;
+  padding-left: 1.25rem;
+}
+
+.ai-energy-page .energy-chapter li {
+  margin-bottom: .85rem;
+  line-height: 1.75;
+}
+
+/* A stronger rule and four open editorial entries distinguish the planned
+   Monitor from the developing study, without cards or an empty archive. */
+.ai-energy-page section.energy-monitor {
+  border-top-color: var(--taupe);
+}
+
+.ai-energy-page .energy-chapter .monitor-dimensions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem 2rem;
+  margin-block: 1.5rem 1.75rem;
+  padding: 0;
+  list-style: none;
+}
+
+.ai-energy-page .monitor-dimensions > li {
+  min-width: 0;
+  margin: 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--sand);
+  font-size: .96rem;
+}
+
+.ai-energy-page .monitor-dimensions strong {
+  display: block;
+  margin-bottom: .4rem;
+  color: var(--ink);
+}
+
+@media (max-width: 767.98px) {
+  .ai-energy-page section.energy-chapter {
+    padding-block: 2rem;
+  }
+
+  .ai-energy-page .energy-chapter .monitor-dimensions {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .ai-energy-page #quarto-content {
+    padding-inline: 1.25rem;
+  }
+}

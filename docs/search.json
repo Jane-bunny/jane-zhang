@@ -130,21 +130,7 @@
     "href": "ai-energy.html",
     "title": "AI & Energy",
     "section": "",
-    "text": "How are AI and energy shaping each other—and what might that mean for ordinary people?\nThis is an ongoing independent learning and research initiative, exploring AI infrastructure, electricity systems, regulatory developments, and their implications for business and society.\nThe work will develop through accessible explanations and a curated watch on developments across the US, EU, and China. Articles and updates are still in preparation."
-  },
-  {
-    "objectID": "ai-energy.html#explained",
-    "href": "ai-energy.html#explained",
-    "title": "AI & Energy",
-    "section": "AI–Energy Explained",
-    "text": "AI–Energy Explained\nAccessible educational and analytical articles for readers without a technical background. Questions to explore include:\n\nHow can we understand the connections between AI infrastructure and electricity systems?\nWhat should we look for when reading an AI and energy headline?\nHow can we compare claims and check their sources?\nWhat might these changes mean for our work, communities, and everyday choices?\n\n\nArticles in preparation. Each article will link to original sources and make its scope, evidence, and uncertainties clear."
-  },
-  {
-    "objectID": "ai-energy.html#watch",
-    "href": "ai-energy.html#watch",
-    "title": "AI & Energy",
-    "section": "AI–Energy Watch",
-    "text": "AI–Energy Watch\nCurated, dated developments across three regions, with links to original sources and an explanation of why each item matters.\n\nUnited States\nPlanned coverage: AI development, electricity infrastructure, and the decisions shaping their growth.\n\n\nEuropean Union\nPlanned coverage: AI policy, energy transitions, and their implications for daily life.\n\n\nChina\nPlanned coverage: AI development, energy infrastructure, and the choices connecting them.\n\nWatch updates to come. Future entries will include a region, the event date, the publication or update date, original source links, and a distinction between reported facts and my interpretation."
+    "text": "Independent Exploration · Research in Progress\nArtificial intelligence is advancing rapidly, with some describing its potential as a new industrial revolution. But technological progress does not happen in isolation. Behind it lies the physical infrastructure that makes it possible.\nEnergy is one of its most fundamental foundations.\nIf AI is going to transform our world, what kind of future are we building to support it?\nWill we pursue technological and economic growth at the expense of our environment, repeating patterns from earlier industrial revolutions? Or can we find a more balanced path—one that considers reliability, affordability, environmental responsibility and long-term societal needs?\nThese questions led me to begin exploring the relationship between AI and energy systems."
   },
   {
     "objectID": "about.html",
@@ -292,5 +278,40 @@
     "title": "Jane’s side projects",
     "section": "Creative projects",
     "text": "Creative projects\n\nCooking\nI am surely a good cook!"
+  },
+  {
+    "objectID": "ai-energy.html#why-i-started",
+    "href": "ai-energy.html#why-i-started",
+    "title": "AI & Energy",
+    "section": "01 — Why I Started Exploring This",
+    "text": "01 — Why I Started Exploring This\nMy starting point was not simply how much electricity artificial intelligence would consume. It was a broader question about the infrastructure we are choosing to build for its future.\nRapid AI development brings growing demands for data centres, electricity generation, transmission networks and other supporting infrastructure.\nBut energy infrastructure is not something we build for today alone.\nDecisions about power generation, grid expansion and large industrial investments can influence energy costs, emissions, communities and the environment for decades.\nI began wondering whether the urgency to support AI development might lead us towards short-term solutions with lasting consequences. Equally, could this moment offer an opportunity to strengthen our energy systems in ways that benefit society beyond the AI industry itself?\nI wanted to understand the possibilities and trade-offs rather than assume that one development pathway was necessarily better than another.\nThat curiosity gradually became a more systematic exploration of electricity systems, infrastructure planning, regulation, investment and the different approaches being taken around the world."
+  },
+  {
+    "objectID": "ai-energy.html#questions",
+    "href": "ai-energy.html#questions",
+    "title": "AI & Energy",
+    "section": "02 — Questions I’m Investigating",
+    "text": "02 — Questions I’m Investigating\nMy exploration currently centres on several interconnected questions:\n\nHow can electricity systems integrate rapidly growing data-centre loads while maintaining reliability?\nWhat roles should grid reinforcement, new generation, storage and demand flexibility play?\nUnder what conditions are shared infrastructure solutions preferable to more individualised approaches?\nHow should infrastructure costs, benefits and long-term risks be allocated?\nHow do different development pathways affect electricity affordability, emissions and wider communities?\n\nThese are questions I am investigating, not conclusions I have already reached."
+  },
+  {
+    "objectID": "ai-energy.html#independent-study",
+    "href": "ai-energy.html#independent-study",
+    "title": "AI & Energy",
+    "section": "03 — An Independent Study in Progress",
+    "text": "03 — An Independent Study in Progress\nI am developing a study examining alternative approaches to integrating large electricity loads, particularly data centres, into energy systems.\nOne potential comparison concerns shared grid infrastructure and more individualised electricity-supply arrangements.\nMy aim is to understand the conditions under which different approaches may perform better, considering reliability, infrastructure investment, costs, flexibility and environmental implications.\nThe research question, methodology and evaluation framework are still evolving as I review existing literature and available evidence.\nI will share the study when its methods and findings are sufficiently developed to support a meaningful contribution."
+  },
+  {
+    "objectID": "ai-energy.html#ai-energy-monitor",
+    "href": "ai-energy.html#ai-energy-monitor",
+    "title": "AI & Energy",
+    "section": "04 — AI & Energy Monitor",
+    "text": "04 — AI & Energy Monitor\n\nFollowing three regions, understanding different directions\nAlongside my independent study, I am developing a monthly series examining significant AI–energy developments across the United States, China and the European Union.\nRather than compiling every news story, the monitor will focus on developments that help explain how these regions are responding to growing electricity demand and what directions their energy systems may be taking.\nEach monthly article will consider:\n\n  What changed: Important developments in AI electricity demand, generation, grid infrastructure, flexibility, policy and investment.\n  How the regions compare: Where priorities, strategies and constraints converge or differ.\n  Why it matters: The possible implications for electricity systems, costs, reliability and the environment.\n  What to watch: Unresolved questions, future milestones and evidence that may confirm or challenge emerging trends.\n\nThe aim is to build a dated, source-supported record that makes developments easier to follow and compare over time."
+  },
+  {
+    "objectID": "ai-energy.html#how-i-approach-the-work",
+    "href": "ai-energy.html#how-i-approach-the-work",
+    "title": "AI & Energy",
+    "section": "05 — How I Approach the Work",
+    "text": "05 — How I Approach the Work\nI believe meaningful analysis requires distinguishing between what is known, what is proposed and what remains uncertain.\nIn this work, I aim to use identifiable sources, examine underlying assumptions and separate documented developments from my own interpretation.\nAnnouncements, regulatory approvals, construction and operational results are not interchangeable. Nor do the United States, China and the European Union operate under identical institutional conditions.\nMy understanding will continue to evolve as new evidence becomes available.\nThis space is where I intend to share that process: following developments, questioning assumptions and gradually building a clearer understanding of the energy systems supporting the AI era."
   }
 ]

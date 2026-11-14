@@ -1,56 +1,105 @@
 ---
 title: "AI & Energy"
-description: "Independent learning and evidence-based inquiry into AI infrastructure and electricity systems."
-toc: true
+subtitle: "Beyond the Headlines"
+pagetitle: "AI & Energy — Beyond the Headlines"
+description: "Jane Zhang's independent exploration of AI and energy infrastructure, a developing study and a planned monthly Monitor comparing the United States, China and European Union."
+page-layout: full
+body-classes: ai-energy-page
+toc: false
+format:
+  html:
+    css:
+      - styles.css
+      - ai-energy.css
 ---
 
-::: {.section-intro}
-How are AI and energy shaping each other—and what might that mean for ordinary people?
+::: {.energy-intro}
+[Independent Exploration · Research in Progress]{.work-type}
+
+Artificial intelligence is advancing rapidly, with some describing its potential as a new industrial revolution. But technological progress does not happen in isolation. Behind it lies the physical infrastructure that makes it possible.
+
+Energy is one of its most fundamental foundations.
+
+If AI is going to transform our world, what kind of future are we building to support it?
+
+Will we pursue technological and economic growth at the expense of our environment, repeating patterns from earlier industrial revolutions? Or can we find a more balanced path—one that considers reliability, affordability, environmental responsibility and long-term societal needs?
+
+These questions led me to begin exploring the relationship between AI and energy systems.
 :::
 
-This is an ongoing independent learning and research initiative, exploring AI infrastructure, electricity systems, regulatory developments, and their implications for business and society.
+## 01 — Why I Started Exploring This {#why-i-started .energy-chapter}
 
-The work will develop through accessible explanations and a curated watch on developments across the US, EU, and China. Articles and updates are still in preparation.
+My starting point was not simply how much electricity artificial intelligence would consume. It was a broader question about the infrastructure we are choosing to build for its future.
 
-::: {.category-links}
-[AI–Energy Explained](#explained){.text-link}
+Rapid AI development brings growing demands for data centres, electricity generation, transmission networks and other supporting infrastructure.
 
-[AI–Energy Watch](#watch){.text-link}
-:::
+But energy infrastructure is not something we build for today alone.
 
-## AI–Energy Explained {#explained}
+Decisions about power generation, grid expansion and large industrial investments can influence energy costs, emissions, communities and the environment for decades.
 
-Accessible educational and analytical articles for readers without a technical background. Questions to explore include:
+I began wondering whether the urgency to support AI development might lead us towards short-term solutions with lasting consequences. Equally, could this moment offer an opportunity to strengthen our energy systems in ways that benefit society beyond the AI industry itself?
 
-- How can we understand the connections between AI infrastructure and electricity systems?
-- What should we look for when reading an AI and energy headline?
-- How can we compare claims and check their sources?
-- What might these changes mean for our work, communities, and everyday choices?
+I wanted to understand the possibilities and trade-offs rather than assume that one development pathway was necessarily better than another.
 
-::: {.editorial-note}
-**Articles in preparation.** Each article will link to original sources and make its scope, evidence, and uncertainties clear.
-:::
+That curiosity gradually became a more systematic exploration of electricity systems, infrastructure planning, regulation, investment and the different approaches being taken around the world.
 
-## AI–Energy Watch {#watch}
+## 02 — Questions I'm Investigating {#questions .energy-chapter}
 
-Curated, dated developments across three regions, with links to original sources and an explanation of why each item matters.
+My exploration currently centres on several interconnected questions:
 
-### United States
+- How can electricity systems integrate rapidly growing data-centre loads while maintaining reliability?
+- What roles should grid reinforcement, new generation, storage and demand flexibility play?
+- Under what conditions are shared infrastructure solutions preferable to more individualised approaches?
+- How should infrastructure costs, benefits and long-term risks be allocated?
+- How do different development pathways affect electricity affordability, emissions and wider communities?
 
-Planned coverage: AI development, electricity infrastructure, and the decisions shaping their growth.
+These are questions I am investigating, not conclusions I have already reached.
 
-### European Union
+## 03 — An Independent Study in Progress {#independent-study .energy-chapter}
 
-Planned coverage: AI policy, energy transitions, and their implications for daily life.
+I am developing a study examining alternative approaches to integrating large electricity loads, particularly data centres, into energy systems.
 
-### China
+One potential comparison concerns shared grid infrastructure and more individualised electricity-supply arrangements.
 
-Planned coverage: AI development, energy infrastructure, and the choices connecting them.
+My aim is to understand the conditions under which different approaches may perform better, considering reliability, infrastructure investment, costs, flexibility and environmental implications.
 
-::: {.editorial-note}
-**Watch updates to come.** Future entries will include a region, the event date, the publication or update date, original source links, and a distinction between reported facts and my interpretation.
-:::
+The research question, methodology and evaluation framework are still evolving as I review existing literature and available evidence.
 
-<!-- Future articles can live in ai-energy/explained/ and ai-energy/watch/.
-     Link them under these headings as they are written. Research notes and a
-     possible monthly newsletter can build on this later; no signup is active. -->
+I will share the study when its methods and findings are sufficiently developed to support a meaningful contribution.
+
+## 04 — AI & Energy Monitor {#ai-energy-monitor .energy-chapter .energy-monitor}
+
+### Following three regions, understanding different directions
+
+Alongside my independent study, I am developing a monthly series examining significant AI–energy developments across the **United States, China and the European Union**.
+
+Rather than compiling every news story, the monitor will focus on developments that help explain how these regions are responding to growing electricity demand and what directions their energy systems may be taking.
+
+Each monthly article will consider:
+
+```{=html}
+<ul class="monitor-dimensions" role="list">
+  <li><strong>What changed:</strong> Important developments in AI electricity demand, generation, grid infrastructure, flexibility, policy and investment.</li>
+  <li><strong>How the regions compare:</strong> Where priorities, strategies and constraints converge or differ.</li>
+  <li><strong>Why it matters:</strong> The possible implications for electricity systems, costs, reliability and the environment.</li>
+  <li><strong>What to watch:</strong> Unresolved questions, future milestones and evidence that may confirm or challenge emerging trends.</li>
+</ul>
+```
+
+The aim is to build a dated, source-supported record that makes developments easier to follow and compare over time.
+
+<!-- Add future dated Monitor articles in ai-energy/monitor/YYYY-MM.qmd,
+     with title, date and identifiable sources. Link real articles here when
+     ready; add an archive only as published content becomes available. -->
+
+## 05 — How I Approach the Work {#how-i-approach-the-work .energy-chapter}
+
+I believe meaningful analysis requires distinguishing between what is known, what is proposed and what remains uncertain.
+
+In this work, I aim to use identifiable sources, examine underlying assumptions and separate documented developments from my own interpretation.
+
+Announcements, regulatory approvals, construction and operational results are not interchangeable. Nor do the United States, China and the European Union operate under identical institutional conditions.
+
+My understanding will continue to evolve as new evidence becomes available.
+
+This space is where I intend to share that process: following developments, questioning assumptions and gradually building a clearer understanding of the energy systems supporting the AI era.
