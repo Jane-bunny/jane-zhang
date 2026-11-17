@@ -88,9 +88,7 @@ Each monthly article will consider:
 
 The aim is to build a dated, source-supported record that makes developments easier to follow and compare over time.
 
-<!-- Add future dated Monitor articles in ai-energy/monitor/YYYY-MM.qmd,
-     with title, date and identifiable sources. Link real articles here when
-     ready; add an archive only as published content becomes available. -->
+[Explore the AI & Energy Monitor →](ai-energy/monitor/index.qmd){.text-link}
 
 ## 05 — How I Approach the Work {#how-i-approach-the-work .energy-chapter}
 

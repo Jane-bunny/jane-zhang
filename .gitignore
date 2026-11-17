@@ -4,6 +4,8 @@
 *_files/
 *_cache/
 *.html
+!docs/ai-energy/monitor/index.html
+!docs/ai-energy/monitor/2026-10.html
 !docs/books/juans-world.html
 !docs/books/me-and-chatgpt.html
 *.pdf

@@ -1,0 +1,41 @@
+---
+title: "AI & Energy Monitor"
+subtitle: "Following three regions, understanding different directions"
+pagetitle: "AI & Energy Monitor"
+description: "Jane Zhang's monthly, source-supported comparative series on AI and energy developments across the United States, China and European Union."
+page-layout: full
+body-classes: monitor-page monitor-index
+toc: false
+format:
+  html:
+    css:
+      - ../../styles.css
+      - monitor.css
+---
+
+::: {.monitor-intro}
+A monthly, source-supported comparative series examining AI and energy developments across the **United States, China and the European Union**.
+
+Each issue considers what changed, how the regions compare, why it matters for electricity systems and society, and what evidence to follow next.
+:::
+
+## Issues {.monitor-section}
+
+<!-- Add real issues here in reverse chronological order; do not add empty entries. -->
+::: {.monitor-entry}
+[Issue 01 · October 2026]{.work-type}
+
+### [AI & Energy Monitor — October 2026](2026-10.qmd)
+
+*From growing electricity demand to the responsibilities of building for AI*
+
+[Reporting period: 1–31 October 2026]{.status}
+
+[Read the October issue →](2026-10.qmd){.text-link}
+:::
+
+```{=html}
+<nav class="monitor-return" aria-label="Monitor navigation">
+  <a href="../../ai-energy.qmd">← AI &amp; Energy</a>
+</nav>
+```

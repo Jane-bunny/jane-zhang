@@ -1,0 +1,431 @@
+---
+title: "AI & Energy Monitor — October 2026"
+subtitle: "From growing electricity demand to the responsibilities of building for AI"
+pagetitle: "AI & Energy Monitor — October 2026"
+description: "Jane Zhang compares October 2026 AI and energy developments across the United States, China and European Union, examining reliability, costs and environmental consequences."
+date: 2026-11-17
+date-format: "D MMMM YYYY"
+page-layout: full
+body-classes: monitor-page monitor-article
+toc: false
+format:
+  html:
+    css:
+      - ../../styles.css
+      - monitor.css
+---
+
+::: {.monitor-meta}
+**Issue 01 · United States, China & European Union**  
+**Reporting period: 1–31 October 2026**
+
+[Publication date: 17 November 2026]{.monitor-publication}
+:::
+
+```{=html}
+<nav class="monitor-contents" aria-label="In this issue">
+<p class="contents-label">In this issue</p>
+<ul>
+  <li><a href="#month-at-a-glance">The month at a glance</a></li>
+  <li><a href="#united-states">01 — United States</a></li>
+  <li><a href="#china">02 — China</a></li>
+  <li><a href="#european-union">03 — European Union</a></li>
+  <li><a href="#comparing-the-directions">04 — Comparing the directions</a></li>
+  <li><a href="#beyond-october">05 — Beyond October: what should we watch?</a></li>
+  <li><a href="#development-tracker">06 — Development tracker</a></li>
+  <li><a href="#closing-reflection">Closing reflection</a></li>
+  <li><a href="#sources-and-research-notes">Sources and research notes</a></li>
+</ul>
+</nav>
+```
+
+## The month at a glance {#month-at-a-glance .monitor-section}
+
+Artificial intelligence is accelerating investment in data centres, computing infrastructure and electricity supply. But the challenge is increasingly about more than finding enough electricity.
+
+Decisions must be made about where data centres connect, who finances new infrastructure, how the power system responds during disturbances, and how technological growth affects electricity affordability and the environment.
+
+AI infrastructure is expanding at a consequential moment: electricity systems around the world are already undergoing a major energy transition. The generation facilities, transmission networks, storage systems and supporting infrastructure built today may shape electricity supply, emissions and resource use for decades.
+
+New AI demand could help accelerate investment in clean generation, stronger networks and flexible energy systems. But decisions focused narrowly on immediate supply may also create additional fossil-fuel dependence, environmental pressures and infrastructure that is difficult to replace. Neither outcome is predetermined. These choices matter not only for the AI industry, but for households, businesses and communities that depend on electricity systems.
+
+October 2026 offered several developments that reveal how these questions are being addressed.
+
+In the **United States**, a federal regulatory decision concerning PJM highlighted unresolved questions about large electricity consumers, generation adequacy, emergency curtailment and the costs borne by existing customers.
+
+In **China**, authorities reported progress in coordinating computing demand with electricity supply, including green-power connections and the participation of computing facilities in electricity markets.
+
+In the **European Union**, work on data-centre sustainability continued alongside national efforts to establish technical requirements for large electricity consumers.
+
+These developments reflect different institutional approaches to a common challenge. They also demonstrate why comparing announcements alone is insufficient.
+
+**The important question is not simply who is building fastest, but how different energy-system decisions distribute costs, risks and environmental consequences over time.**
+
+
+## 01 — United States {#united-states .monitor-section}
+
+### The challenge of connecting large loads without shifting risks
+
+**9 October 2026 — FERC's decision on PJM's large-load proposal**
+
+The US Federal Energy Regulatory Commission (FERC) issued a consequential decision concerning PJM Interconnection, the regional grid operator serving parts of the eastern United States.
+
+PJM had proposed a framework addressing growing demand from large electricity consumers, particularly data centres. Its proposal included a large-load registry, an interim resource-adequacy service, new capacity-supply obligations and arrangements for customers bringing their own generation capacity.
+
+FERC accepted the proposed definition of large loads and the registry, but rejected the remaining interconnected arrangements. [Source: FERC order and Commissioner Rosner's concurrence](https://www.ferc.gov/news-events/news/commissioner-rosners-concurrence-pjm-interconnection-llc-er26-3515-000).
+
+This distinction matters. A registry can improve visibility into prospective electricity demand. System planners need to know where large projects may connect, how much capacity they require and when their consumption is likely to materialise. But **better forecasting does not itself increase the electricity supply available to meet that demand**.
+
+The **reliability risk** emerges when large new loads connect faster than sufficient generating capacity and supporting network infrastructure become available. Additional demand can reduce the margin of available supply, particularly at peaks or during unexpected outages. If the system cannot meet demand and emergency measures are insufficient, electricity interruptions can affect other consumers.
+
+The **financial risk** arises through a different mechanism. Greater demand for scarce generating capacity can increase prices in capacity markets, where suppliers procure resources to meet future reliability requirements. These costs may ultimately affect customers' electricity bills. New network infrastructure can also be necessary, raising questions about whether the large-load customer or the wider customer base should fund it.
+
+These risks are not inevitable consequences of every new data centre. Their distribution depends on the actual supply–demand balance, required infrastructure, market arrangements and tariffs. Indeed, a large load using spare capacity and paying its attributable costs could help spread existing fixed network costs across more consumption. [Source: IEA](https://www.iea.org/reports/powering-artificial-intelligence/executive-summary).
+
+PJM's proposed **Interim Resource Adequacy Service (IRAS)** attempted to manage reliability concerns by allowing certain large loads to connect without equivalent capacity-market obligations, provided they accepted mandatory consumption reductions during specified shortage conditions.
+
+Commissioner David Rosner questioned the proposed sequence of emergency actions. Under the design, certain large loads could be forcibly curtailed before existing voluntary demand-response resources were activated. He also warned that excluding those loads from the capacity-market demand curve might understate the generating capacity the region actually needs, weakening investment signals while increasing reliance on forced curtailment. [Source: Rosner concurrence, 9 October](https://www.ferc.gov/news-events/news/commissioner-rosners-concurrence-pjm-interconnection-llc-er26-3515-000).
+
+The distinction is important: curtailing non-critical data centres before homes, hospitals or schools during a genuine emergency may be appropriate. But a system that depends too heavily on mandatory curtailment instead of securing adequate supply could create longer-term reliability problems.
+
+FERC rejected the bulk of the proposed arrangements on legal and design grounds while leaving room for revisions. Commissioner Rosner's concerns are an important part of the debate, but should not be mistaken for an exhaustive statement of the Commission's reasoning.
+
+**The broader question is therefore not whether data centres should ever reduce consumption, but how connection rules can protect existing customers without weakening incentives to build the infrastructure needed tomorrow.**
+
+### The infrastructure cost question
+
+A new data centre may require generation, transmission reinforcement or other infrastructure. Such assets can remain in use for decades, while the timing and scale of data-centre demand remain uncertain. Projects may be delayed, built in phases or cancelled.
+
+If infrastructure is constructed for demand that never fully materialises, **who pays?**
+
+The IEA describes long-term contracts, minimum-payment commitments, financial guarantees, exit provisions and phased connections as mechanisms that can reduce stranded-investment risks. Their design matters: protecting existing consumers should not impose unjustified costs on new customers, just as attracting investment should not automatically transfer its risks to everyone else. [Source: IEA](https://www.iea.org/reports/powering-artificial-intelligence/executive-summary).
+
+### Environmental implications: the consequences outlive the connection decision
+
+The way additional electricity is supplied deserves equal attention.
+
+The IEA's October assessment documents many announcements of on-site natural-gas generation for data centres in the United States. Some remain proposals, while others are moving forward. Such arrangements may help developers secure electricity more quickly or operate with greater independence from constrained grids. Under some conditions, they may contribute to local reliability. [Source: IEA](https://www.iea.org/reports/powering-artificial-intelligence/executive-summary).
+
+But **new gas-fired generation may operate for decades**. Its environmental effects include direct CO₂ emissions, potential methane emissions along the fuel supply chain and local air-quality impacts. Capital investment, contracts and supporting infrastructure can also create incentives to keep those assets operating long after the immediate connection problem has passed.
+
+The relevant comparison is therefore not simply whether an on-site generator can meet a data centre's near-term needs. It is how that arrangement performs over its useful life against feasible alternatives—including shared grid reinforcement, renewables, storage, demand flexibility and combinations of these approaches.
+
+A grid-connected solution is **not automatically cleaner**, especially where grid electricity is carbon-intensive. Nor does contracting for renewable power establish that incremental computing demand is fully met by clean supply at every hour. Environmental comparisons must examine the timing of demand, the electricity actually generated, marginal system effects, infrastructure life and realistic alternatives.
+
+The question is whether infrastructure built to serve AI also supports a cleaner and more resilient electricity system for everyone.
+
+::: {.monitor-interpretation}
+**Interpretation:** US developments show the difficulty of reconciling rapid large-load connections, supply adequacy, financial responsibility and long-term environmental outcomes. The PJM decision improved the framework for demand visibility but left major operational and investment questions unresolved.
+:::
+
+
+## 02 — China {#china .monitor-section}
+
+### Coordinating computing infrastructure and electricity development
+
+**27–30 October 2026 — Official updates on computing–electricity coordination**
+
+China's approach increasingly places computing infrastructure within broader energy-system planning.
+
+The National Energy Administration (NEA) describes this through *算电协同*—coordination between computing and electricity—and through arrangements linking computing demand to nearby renewable-energy supply.
+
+On **30 October**, the NEA reported that **by the end of September**, 24 provincial-level jurisdictions had issued supporting documents for green-power direct connections, and **12 projects serving computing facilities** had received approval. [Source: NEA, 30 October](https://www.nea.gov.cn/20261030/417c3369620343cc9584ce66621619ed/c.html).
+
+These are signs of policy and project development, **not proof that every approved project is operational**. Approval does not by itself establish the electricity eventually supplied, the additional clean generation enabled or the wider network investment still required.
+
+### Computing demand as a flexible resource
+
+Another development offers a more operational example.
+
+On **27 October**, the Central China energy regulator reported that two computing centres in Hubei had joined a virtual-power-plant resource pool with **15 MW of flexible computing load** and completed a market transaction. The underlying activity began in September; the October item reported that progress. [Source: NEA, 27 October](https://www.nea.gov.cn/20261027/8b7696d937f54e07a406c93966d98b2b/c.html).
+
+Some computing tasks can be shifted in time. Where workloads permit, flexible tasks may be increased during periods of abundant or inexpensive electricity and delayed or reduced when the power system is stressed.
+
+The regulator estimated that participating businesses **could reduce electricity costs by about 6%** while maintaining service continuity. That is a reported estimate, not evidence of sustained savings across different workloads or conditions.
+
+Nor does the participation of 15 MW establish that comparable flexibility can be delivered reliably by much larger computing campuses. Questions remain about response speed, duration, workload constraints, rebound or recovery behaviour, and the actual value provided to the grid.
+
+Nevertheless, this is an example of computing facilities being treated as potential electricity-market participants rather than solely passive consumers.
+
+### Clean-energy expansion and conventional energy security
+
+China's wider energy development presents a more complicated picture than a straightforward transition away from fossil fuels.
+
+At its **30 October** briefing, the NEA reported substantial growth in solar generation capacity, storage deployment and grid-related investment. It stated that coal-fired generation's share of total electricity generation had fallen to **49.1%** by the end of September, while renewable generation accounted for **41.8%** of electricity output in the first nine months of 2026. It also reported approving **12 large modern coal mines** during 2026 and maintaining measures to secure coal supply. These are national energy statistics—not a measurement of the electricity mix serving AI data centres. [Source: NEA press briefing](https://www.nea.gov.cn/20261030/dd2b15f04b92441aa59f839a1a3413ba/c.html).
+
+Renewable expansion and continued conventional energy-security measures are thus occurring together. The crucial question is what this means for the emissions and flexibility of incremental computing demand.
+
+Green-power procurement and direct connections can be valuable, but environmental benefits cannot be established from approvals or contracted capacity alone. We need to understand **when** renewable electricity is generated, **how** computing demand is matched with supply, whether genuinely additional clean generation is enabled, and what happens on the wider grid.
+
+The same applies to demand flexibility. Moving computing tasks might absorb otherwise curtailed renewable output or reduce fossil-fuel generation under suitable conditions. The result depends on system conditions and verified operational performance, not on the label attached to a project.
+
+::: {.monitor-interpretation}
+**Interpretation:** China's reported developments suggest emphasis on coordination between computing growth, electricity planning, renewable supply and demand flexibility. The major questions are whether these arrangements scale reliably and produce measurable emissions reductions and wider system benefits.
+:::
+
+
+## 03 — European Union {#european-union .monitor-section}
+
+### Sustainability, transparency and system integration
+
+The European Union is pursuing digital infrastructure growth while developing rules aimed at improving data centres' environmental performance and integration with electricity systems.
+
+A European Commission report issued in September states that EU data centres consumed approximately **68 TWh in 2024**, with consumption projected to rise to **114 TWh by 2030**, or around **3.2%** of EU electricity demand. These figures concern **data centres as a whole**, not AI-only electricity consumption. [Source: European Commission report](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52026DC0500).
+
+During October, EU institutions continued work on measures proposed or initiated in September, including a common data-centre rating scheme and a consultation on minimum energy-performance standards. The consultation was scheduled to remain open until **14 December 2026**, with a legislative proposal planned for 2027. Neither the consultation nor a proposed rating scheme should be presented as a newly enacted October requirement. [Source: European Commission](https://energy.ec.europa.eu/topics/energy-efficiency/energy-efficiency-targets-directive-and-rules/energy-efficiency-directive/energy-performance-data-centres_en).
+
+Efficiency matters, but it is not the entire environmental picture. Total electricity consumption, the carbon intensity of supply, cooling-water demand, local water scarcity and possibilities for recovering waste heat all need attention. A data centre can become more efficient **per unit of computing** while its total electricity use still increases.
+
+Better reporting could make energy use, water consumption and environmental performance easier to compare. The next test is whether that information leads to measurable outcomes, including lower emissions and resource use, useful heat recovery, and better integration with electricity networks. Improved disclosure alone is not proof of improvement.
+
+### Reliability goes beyond energy efficiency
+
+A particularly important example comes from Ireland.
+
+In October, EirGrid and SONI's *Operational Policy Roadmap* update identified the fault ride-through performance of large demand facilities as an important issue for operating the electricity system with higher shares of non-synchronous renewable generation. [Source: EirGrid/SONI October update](https://www.eirgrid.ie/sites/default/files/publications/Operational-Policy-Roadmap-Status-Update-October-2026.pdf).
+
+A related Irish Grid Code amendment introduced requirements for **fault ride-through, rate of change of frequency and post-fault active-power recovery** at transmission-connected demand facilities. The regulator's decision letter was dated **22 September**, and specified that the code would be amended five weeks later—**27 October 2026**. [Source: CRU approval letter](https://cms.eirgrid.ie/sites/default/files/publications/MPID345-CRU-Approval-271026.pdf).
+
+These rules concern how facilities behave during electrical disturbances. The sudden disconnection of large consumers during a voltage event can create additional operational difficulties for the wider power system. That is different from annual energy consumption or cooling efficiency.
+
+The Irish development demonstrates that integrating data centres involves both long-term infrastructure adequacy and short-timescale system behaviour. It is a **national grid-code development**, not an EU-wide technical requirement.
+
+### AI as part of the energy-system transformation
+
+On **29 October**, the European Commission's Energy Transition Expertise Centre (ENTEC2) held a workshop on digitalisation and AI in the energy sector. It discussed potential applications in areas including grid planning and operations, as well as barriers to adoption. [Source: European Commission / ENTEC2](https://energy.ec.europa.eu/events/workshop-digitalisation-and-ai-energy-sector-2026-10-29_en).
+
+This adds another perspective: AI is not only creating new demand; it may also support energy forecasting, planning and system operations. Potential benefits, however, should not be confused with demonstrated gains at scale.
+
+::: {.monitor-interpretation}
+**Interpretation:** EU-level efforts are advancing sustainability information and proposed standards, while national electricity systems are addressing technical reliability. The environmental and operational value of these measures will depend on implementation and measured outcomes, not regulatory intent alone.
+:::
+
+
+## 04 — Comparing the directions {#comparing-the-directions .monitor-section}
+
+### Different approaches, shared challenges
+
+The three regions cannot be reduced to a single strategy each. The United States also invests in renewable generation and grid development; China faces market-design and reliability challenges alongside coordination efforts; and the European Union must address large-load connection and infrastructure investment as well as environmental standards.
+
+Nevertheless, the selected October developments reveal different emphases:
+
+```{=html}
+<p class="table-hint" id="regional-comparison-hint">On smaller screens, scroll horizontally to read all columns. Keyboard users can focus the table and use the arrow keys.</p>
+<div class="monitor-table-region" role="region" aria-label="Comparison of selected October developments" aria-describedby="regional-comparison-hint" tabindex="0">
+<table>
+<caption>Comparison of selected October developments</caption>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col">Dimension</th>
+<th scope="col">United States</th>
+<th scope="col">China</th>
+<th scope="col">European Union</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"><strong>Demand visibility</strong></th>
+<td>PJM large-load definition and registry accepted</td>
+<td>Computing–electricity coordination in planning</td>
+<td>Data-centre reporting and sustainability information</td>
+</tr>
+<tr>
+<th scope="row"><strong>Electricity supply</strong></th>
+<td>Debates over capacity obligations and individual supply
+solutions</td>
+<td>Renewable integration alongside conventional energy security</td>
+<td>Energy performance and supply-system integration</td>
+</tr>
+<tr>
+<th scope="row"><strong>Flexibility and reliability</strong></th>
+<td>Disputed emergency-curtailment framework and capacity-market
+signals</td>
+<td>Reported computing participation in a virtual power plant</td>
+<td>National technical performance requirements, illustrated by
+Ireland</td>
+</tr>
+<tr>
+<th scope="row"><strong>Cost and risk</strong></th>
+<td>Consumer protection, generation adequacy and allocation of
+investment costs</td>
+<td>Reported operating-cost and coordination benefits</td>
+<td>Efficiency, investment and national grid requirements</td>
+</tr>
+<tr>
+<th scope="row"><strong>Environmental implications</strong></th>
+<td>Lifetime emissions and dependence associated with on-site gas
+proposals</td>
+<td>Actual additionality, time matching and emissions effects of
+green-power connections</td>
+<td>Energy, water, heat reuse and total system impacts</td>
+</tr>
+<tr>
+<th scope="row"><strong>Evidence still needed</strong></th>
+<td>Revised connection rules, actual cost allocation and supply
+outcomes</td>
+<td>Verified flexibility, project commissioning and emissions
+results</td>
+<td>Enacted and implemented standards, facility compliance and measured
+outcomes</td>
+</tr>
+</tbody>
+</table>
+</div>
+```
+
+*This comparison describes the **selected October developments**, not an exhaustive assessment or ranking of regional energy strategies.*
+
+### What helps explain the differences?
+
+Institutional arrangements are one factor. The United States operates through multiple federal, state and regional authorities, with electricity-market structures that vary across jurisdictions. China combines national development objectives with provincial implementation and evolving market mechanisms. The European Union develops shared policy frameworks, while grid planning, investment and operation involve national regulators, governments and system operators.
+
+These differences help explain why similar pressures result in different regulatory and operational responses. But institutions are not the whole explanation. Resource availability, existing infrastructure, electricity prices, industrial priorities, environmental constraints and local community impacts also matter.
+
+The appropriate comparison is not simply who approved more projects, but **what was built, how it operates, what it costs, who bears the risks and what environmental outcomes it produces**.
+
+
+## 05 — Beyond October: what should we watch? {#beyond-october .monitor-section}
+
+**Will large-load forecasting lead to better investment decisions?** Better demand visibility is valuable, but system planners must still judge which proposed projects will be built and when capacity will actually be used.
+
+**Can computing flexibility deliver dependable grid services?** Promising examples need verification of response speed, duration, recovery behaviour and performance during disturbances.
+
+**Will renewable procurement and direct connections deliver measurable emissions reductions?** Assessments need to consider timing, additional clean supply, system effects and what generation is displaced or added.
+
+**Who carries long-term infrastructure risks?** Data centres, utilities, investors, electricity customers and communities may bear different costs and benefits from the same decision.
+
+**What will happen to water use and local environmental conditions?** Cooling choices, the energy–water trade-off, upstream power-generation water use and local water scarcity need more than headline efficiency figures.
+
+**Will proposed rules become effective practice?** Standards, approvals and announcements must be followed through to commissioning, compliance and observed results.
+
+These questions provide a basis for testing whether the directions seen in October persist, change or prove less significant than initially expected.
+
+
+## 06 — Development tracker {#development-tracker .monitor-section}
+
+The record distinguishes the date an item was **reported** from the status of the underlying activity.
+
+```{=html}
+<p class="table-hint" id="development-record-hint">On smaller screens, scroll horizontally to read all columns. Keyboard users can focus the table and use the arrow keys.</p>
+<div class="monitor-table-region" role="region" aria-label="Development tracker for October 2026" aria-describedby="development-record-hint" tabindex="0">
+<table>
+<caption>Development tracker for October 2026</caption>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col">Development</th>
+<th scope="col">Relevant date</th>
+<th scope="col">Status at October reporting</th>
+<th scope="col">What to follow</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">FERC–PJM large-load ruling</th>
+<td><strong>9 Oct</strong></td>
+<td>Large-load definition and registry accepted; bulk of other
+arrangements rejected</td>
+<td>Revised filing, capacity obligations, curtailment rules and customer
+protections</td>
+</tr>
+<tr>
+<th scope="row">Hubei computing flexibility</th>
+<td><strong>27 Oct</strong> report; activity began in September</td>
+<td>15 MW participating load and a market transaction reported</td>
+<td>Verified response performance, repeatability, economic benefits and
+emissions effects</td>
+</tr>
+<tr>
+<th scope="row">China green-power direct connections</th>
+<td><strong>30 Oct</strong> report; approvals counted through
+end-September</td>
+<td>12 projects serving computing facilities approved</td>
+<td>Construction, commissioning, operational output and
+additionality</td>
+</tr>
+<tr>
+<th scope="row">EU data-centre rating and performance standards</th>
+<td><strong>21 Sept</strong> proposals/consultation; work continued in
+October</td>
+<td>Reporting/rating initiatives and minimum-standards proposal under
+development</td>
+<td>Consultation outcome, legislative development and actual
+compliance</td>
+</tr>
+<tr>
+<th scope="row">Irish demand-facility technical requirements</th>
+<td>Decision letter <strong>22 Sept</strong>; effective <strong>27
+Oct</strong></td>
+<td>Grid Code amended</td>
+<td>Facility compliance, testing and system outcomes</td>
+</tr>
+<tr>
+<th scope="row">IEA global policy assessment</th>
+<td><strong>14 Oct</strong></td>
+<td>Comparative report published</td>
+<td>Follow-up policy implementation and measured effects</td>
+</tr>
+</tbody>
+</table>
+</div>
+```
+
+### A broader perspective
+
+The IEA's **14 October 2026** report identified **134 policies and regulations** concerning data-centre integration into electricity systems across the jurisdictions it surveyed. Nearly **40%** had been announced or implemented in the preceding 12 months.
+
+Much of the activity concerns improving the visibility of demand in terms of location, scale and timing. Requirements governing how data centres operate and interact with networks are comparatively less common. [Source: IEA, *Powering Artificial Intelligence*](https://www.iea.org/reports/powering-artificial-intelligence/executive-summary).
+
+The same report estimates electricity-related data-centre CO₂ emissions at approximately **150 million tonnes annually** today, rising to about **350 million tonnes by 2035** in its central scenario. These are modelled estimates and projections, not inevitable outcomes. The report also finds that nearly **40% of identified AI-focused data-centre capacity** lies in areas with high or extremely high baseline water stress. That does **not** mean 40% of all data centres use an unsustainable volume of water; it identifies geographic exposure requiring closer investigation. [Source: IEA](https://www.iea.org/reports/powering-artificial-intelligence/executive-summary).
+
+These findings underline the need to consider operational behaviour, total emissions, resources and local conditions alongside the speed of new connections.
+
+
+## Closing reflection {#closing-reflection .monitor-section}
+
+October 2026 does not tell us which region has chosen the better path. Nor should the energy transition be reduced to a competition between countries.
+
+We are living through a period in which two transformations are unfolding together: the rapid development of artificial intelligence and the transition towards cleaner, more sustainable energy systems.
+
+Their interaction could create important opportunities. AI-related demand might help finance clean generation, reinforce electricity networks and accelerate innovation. But it could also increase environmental pressures or create long-lasting dependencies if infrastructure decisions focus too narrowly on immediate demand and economic returns.
+
+These possibilities need to be examined, not assumed.
+
+For this Monitor, I want to follow not only the pace of AI infrastructure development but its consequences for **emissions, resource use, reliability, affordability and the communities that depend on electricity systems**. I want to distinguish promises from outcomes and remain open to evidence that challenges earlier interpretations.
+
+The question is not whether AI should progress.
+
+**It is whether the infrastructure decisions supporting that progress can serve a better energy future for all of us.**
+
+
+## Sources and research notes {#sources-and-research-notes .monitor-section}
+
+The article is a selective, source-supported monthly review rather than an exhaustive survey. Its primary references are:
+
+1. **US Federal Energy Regulatory Commission (FERC)** — 9 October 2026: [PJM large-load ruling, Docket ER26-3515-000](https://elibrary.ferc.gov/eLibrary/docinfo?accession_Number=20261009-3055) and [Commissioner Rosner's concurrence](https://www.ferc.gov/news-events/news/commissioner-rosners-concurrence-pjm-interconnection-llc-er26-3515-000).
+2. **China National Energy Administration (NEA)** — 27 October 2026: [Central China computing–electricity market transaction](https://www.nea.gov.cn/20261027/8b7696d937f54e07a406c93966d98b2b/c.html) (Chinese).
+3. **China National Energy Administration (NEA)** — 30 October 2026: [Computing–electricity coordination and green-power connections](https://www.nea.gov.cn/20261030/417c3369620343cc9584ce66621619ed/c.html) and [national energy press briefing](https://www.nea.gov.cn/20261030/dd2b15f04b92441aa59f839a1a3413ba/c.html) (Chinese).
+4. **European Commission** — September 2026 and continuing through October: [Report on the energy efficiency of EU data centres](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52026DC0500) and [data-centre performance and sustainability framework](https://energy.ec.europa.eu/topics/energy-efficiency/energy-efficiency-targets-directive-and-rules/energy-efficiency-directive/energy-performance-data-centres_en).
+5. **EirGrid/SONI and CRU** — October 2026: [Operational Policy Roadmap status update](https://www.eirgrid.ie/sites/default/files/publications/Operational-Policy-Roadmap-Status-Update-October-2026.pdf) and [CRU Grid Code amendment approval (decision dated 22 September)](https://cms.eirgrid.ie/sites/default/files/publications/MPID345-CRU-Approval-271026.pdf).
+6. **European Commission / ENTEC2** — 29 October 2026: [Workshop on digitalisation and AI in the energy sector](https://energy.ec.europa.eu/events/workshop-digitalisation-and-ai-energy-sector-2026-10-29_en).
+7. **International Energy Agency (IEA)** — 14 October 2026: [*Powering Artificial Intelligence: Strategies for Integrating Data Centres into Electricity Systems*](https://www.iea.org/reports/powering-artificial-intelligence), including the [executive summary](https://www.iea.org/reports/powering-artificial-intelligence/executive-summary).
+
+**Methodological note:** Dates refer to the event, approval, effective date or publication date as indicated. The three regions differ in governance, grid conditions and institutional structures, so the examples are not equivalent measures of performance. Official statistics, announcements and estimates are attributed to their issuing organisations; they are not necessarily independently verified operational results. Interpretations and questions are distinguished from established events. Environmental conclusions require actual system and project data rather than labels such as “green” or “on-site”.
+
+```{=html}
+<nav class="monitor-return" aria-label="Monitor navigation">
+  <a href="index.qmd">← AI &amp; Energy Monitor</a>
+  <a href="../../ai-energy.qmd">AI &amp; Energy →</a>
+</nav>
+```

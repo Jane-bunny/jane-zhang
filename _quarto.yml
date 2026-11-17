@@ -1,10 +1,15 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - ".nojekyll"
   render:
     - "**/*.qmd"
     - "!docs/**"
     - "!_site/**"
+    # Preserve earlier practice sources without publishing them on the website.
+    - "!side-project.qmd"
+    - "!posts/2025-12-04_first_post/index.qmd"
 
 website:
   title: "Jane Zhang"
