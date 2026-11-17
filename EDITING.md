@@ -1,6 +1,8 @@
-# Editing Jane's website
+# Editing Jane Zhang's website
 
 This is the existing Quarto website. Edit the source files, then check the local preview. Quarto generates the browser-ready HTML in `docs/`; edit the source rather than that generated HTML.
+
+The GitHub project is `Jane-bunny/jane-zhang`. The public website is https://jane-bunny.github.io/jane-zhang/.
 
 ## Where things live
 
@@ -15,7 +17,9 @@ This is the existing Quarto website. Edit the source files, then check the local
 | `data-projects.qmd` | Data portfolio overview |
 | `projects/msc-space-plasma.qmd` | MSc project details and references |
 | `writing.qmd` | Published fiction, manuscripts, earlier creative notes |
-| `ai-energy.qmd` | Explained and Watch categories |
+| `ai-energy.qmd` | Independent study and AI & Energy Monitor introduction |
+| `ai-energy/monitor/index.qmd` | Monthly Monitor issue index |
+| `ai-energy/monitor/YYYY-MM.qmd` | Individual Monitor articles, with reporting and publication dates |
 | `posts/` | Existing data-blog posts and saved figure metadata |
 | `side-project.qmd` | Preserved earlier side-project notes |
 | `filters/figure-alt.lua` | Descriptive alt text for saved analysis figures |
@@ -38,12 +42,10 @@ quarto preview --port 4321
 
 Open http://localhost:4321/. Save a source edit to refresh the preview; press Ctrl+C in the terminal to stop it. `quarto render` rebuilds the entire site using saved computational results where available. Previewing an edited computational post can run its Python code and requires the original dependencies, including `palmerpenguins` for the penguin post.
 
-## Content still to add
+## Publishing and preserving earlier work
 
-- The homepage uses `images/jane-astronaut.png`, with descriptive alt text and a responsive 4:5 crop set by `.portrait-photo` in `styles.css`. The original photo is unchanged.
-- Final personal introduction and background / qualification details.
-- MSc summary, date, institution, methods, findings, limitations, and public source links.
-- Book synopsis, publication details, direct book link, and manuscript statuses.
-- AI–energy articles and Watch entries, with original sources, event dates, publication dates, and a distinction between evidence and interpretation.
+Rendering updates the local `docs/` files. A local Git commit saves work without publishing it. Pushing the `main` branch to GitHub updates the public website through GitHub Pages, which serves the `docs/` folder.
 
-Future AI–energy articles can live under `ai-energy/explained/` and `ai-energy/watch/`, linked from the two existing categories. No newsletter or subscription service is active. Nothing in this revision publishes the site.
+The older practice post and `side-project.qmd` are excluded from the public build. Their source files and saved computational results remain available for learning. The obsolete `_site/` output has been removed and is ignored.
+
+Add real Monitor issues under `ai-energy/monitor/YYYY-MM.qmd`, then link them from the Monitor index. Keep reporting periods separate from publication dates and retain identifiable sources. No newsletter, contact form or public email link is active.
